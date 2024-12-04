@@ -1,0 +1,11 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.btnLogin {
+    @include flex-start;
+    @include belota-400-15;
+}
+
+.linkText {
+    color: $white;
+}

@@ -1,0 +1,9 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.linkText {
+    color: $white;
+    @include belota-400-15;
+    border: 2px solid $border-blue;
+    border-radius: 8px;
+}

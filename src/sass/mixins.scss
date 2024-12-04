@@ -1,0 +1,215 @@
+@mixin reset-list-style {
+    list-style-type: none;
+}
+
+@mixin belota-700-47 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+    font-size: 47px;
+}
+
+@mixin belota-700-34 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+@mixin belota-700-33 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+}
+
+@mixin belota-700-25 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+@mixin belota-700-24 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+@mixin belota-700-19 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+@mixin belota-700-16 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+@mixin belota-700-15 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+@mixin belota-700-12 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+@mixin belota-400-18 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@mixin belota-400-17 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+@mixin belota-400-15 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@mixin belota-400-14 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@mixin belota-400-12 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+@mixin belota-200-18 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+@mixin belota-300-11 {
+    font-family: 'Bellota Text', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+@mixin jetBrains-300-24 {
+    font-family: 'JetBrains Mono', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+@mixin jetBrains-400-18 {
+    font-family: 'JetBrains Mono', cursive;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.76px;
+}
+
+@mixin jetBrains-300-25 {
+    font-family: 'JetBrains Mono', cursive;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-row-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@mixin flex-space-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin flex-start {
+    display: flex;
+    justify-content: start;
+}
+
+@mixin flex-space-around-center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin flex-column-start {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+@mixin flex-align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flex-column-reverse-baseline {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+}
+
+@mixin link {
+    color: $white;
+    text-decoration: none;
+}
+
+@mixin ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+

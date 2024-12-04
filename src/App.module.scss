@@ -1,0 +1,21 @@
+@import './sass/colors.scss';
+
+.App {
+  text-align: center;
+  background-color: $base-dark-blue;
+  min-height: 100vh;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}

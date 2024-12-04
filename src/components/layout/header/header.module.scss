@@ -1,0 +1,51 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.container {
+    @include flex-center-center;
+    width: 100%;
+}
+
+.content {
+    padding-top: 2.5vw;
+    padding-left: 1.6vw;
+    width: 68%;
+    @include flex-start;
+    align-items: center;
+}
+
+.navigation {
+    @include ul;
+    @include flex-center-center;
+    width: 180%;
+    gap: 4%;
+}
+
+.navItemLink {
+    @include link;
+}
+
+.navItemText {
+    @include  belota-200-18;
+}
+
+.buttonsWrap {
+    @include flex-space-between-center
+}
+
+.pictureWrap {
+    width: 17.5%;
+}
+
+.picture {
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.buttonsWrap {
+    margin-left: auto;
+    margin-right: 1vw;
+    width: 22.5%;
+}
