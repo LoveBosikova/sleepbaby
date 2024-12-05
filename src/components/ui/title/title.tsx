@@ -1,12 +1,12 @@
 import styles from './title.module.scss';
 
 interface ITitleProps {
-    text: string
+    text?: string
 }
 
 function Title (props: ITitleProps) {
     return (
-        <p className={styles.title}>{props.text}</p>
+        <p className={styles.title}>{props?.text}</p>
     )
 }
 

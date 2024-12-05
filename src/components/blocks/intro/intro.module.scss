@@ -1,0 +1,51 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.container {
+    position: relative;
+    padding-top: 5vw;
+    width: 100%;
+    max-width: 100%;
+}
+
+.content {
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 11.8vw;
+    padding-bottom: 11.8vw;
+    padding-left: .7%;
+    width: 40%;
+}
+
+.h1Wrap {
+    padding-top: 1vw;
+}
+
+.text {
+    @include belota-400-18;
+    color: $white;
+    text-align: left;
+    padding-top: 1.5vw;
+    padding-bottom: 1.9vw;
+}
+
+.familyPic {
+    position: absolute;
+    top: 22%;
+    right: 12.2%;
+    height: auto;
+    width: 51vw;
+    max-width: 51vw;
+}
+
+.img {
+    @include picFit;
+
+}

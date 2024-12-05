@@ -1,8 +1,8 @@
 @import '../../../sass/mixins.scss';
 @import '../../../sass/colors.scss';
 
-.title {
-    @include shnobel-400-23;
+.h1 {
+    @include belota-700-47;
     color: $white;
     text-align: left;
 }

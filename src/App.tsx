@@ -8,26 +8,15 @@ import Intro from './components/blocks/intro/intro';
 function App() {
   return (
     <div className={styles.App}>
-      {/* header */}
       <Header></Header>
       <body>
         <div className={styles.hiddenSections}>
-          <Intro>
-          </Intro>
+          <Intro />
 
         </div>
       </body>
       {/* 
-      
-      body
-
-        hidden sections 
-
-      body
-      
-      */}
       {/* footer */}
-
     </div>
   );
 }

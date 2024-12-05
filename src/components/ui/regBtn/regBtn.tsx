@@ -1,5 +1,3 @@
-import login from '../../../assets/login.png';
-
 import styles from './regBtn.module.scss';
 
 function RegBtn () {
