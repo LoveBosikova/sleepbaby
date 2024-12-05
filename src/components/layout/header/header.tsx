@@ -36,7 +36,6 @@ function Header () {
                         </li>
                     </ul>
                 </nav>
-
                 <div className={styles.buttonsWrap}>
                     <LoginBtn></LoginBtn>
                     <RegBtn></RegBtn>

@@ -122,6 +122,26 @@
     font-size: 11px;
 }
 
+@mixin shnobel-400-23 {
+    font-family: 'Shnobel', sans-serif;
+    font-size: 23px;
+}
+
+@mixin shnobel-400-20 {
+    font-family: 'Shnobel', sans-serif;
+    font-size: 20px;
+}
+
+@mixin shnobel-400-17 {
+    font-family: 'Shnobel', sans-serif;
+    font-size: 17px;
+}
+
+@mixin shnobel-400-15 {
+    font-family: 'Shnobel', sans-serif;
+    font-size: 15px;
+}
+
 @mixin jetBrains-300-24 {
     font-family: 'JetBrains Mono', cursive;
     font-style: normal;

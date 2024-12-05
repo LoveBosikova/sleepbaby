@@ -4,6 +4,12 @@
 .btnLogin {
     @include flex-start;
     @include belota-400-15;
+    gap: 5%;
+}
+
+.linkText {
+    padding: 0;
+    margin: 0;
 }
 
 .linkText {

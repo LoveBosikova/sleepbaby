@@ -3,12 +3,20 @@
 import Header from './components/layout/header/header';
 
 import styles from './App.module.scss';
+import Intro from './components/blocks/intro/intro';
 
 function App() {
   return (
     <div className={styles.App}>
       {/* header */}
       <Header></Header>
+      <body>
+        <div className={styles.hiddenSections}>
+          <Intro>
+          </Intro>
+
+        </div>
+      </body>
       {/* 
       
       body
