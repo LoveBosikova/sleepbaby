@@ -6,7 +6,6 @@ function Intro () {
         <section className={styles.container}>
             <div className={styles.content}>
                 <Title text={'Удобный и понятный'}></Title>
-
             </div>
         </section>
 
