@@ -1,8 +1,8 @@
 @import '../../../sass/mixins.scss';
-@import '../../../sass/colors.scss';
 
 .title {
     @include shnobel-400-23;
-    color: $white;
+    font-style: normal;
+    color: inherit;
     text-align: left;
 }

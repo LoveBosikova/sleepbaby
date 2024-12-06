@@ -1,0 +1,59 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.author {
+    @include flex-start;
+    padding-top: 4vw;
+    padding-left: 16.3vw;
+    padding-right: 16vw;
+    padding-bottom: 7vw;
+}
+
+.titleWrap {
+    @include flex-start;
+    color: $white;
+}
+
+.quotesSide {
+    padding-top: 5vw;
+}
+
+.quotesWrap {
+    padding-left: 8.6vw;
+    text-align: left;
+}
+
+.quoteImgWrap {
+    margin-right: 0.15vw;
+}
+
+.title {
+    padding-left: 1vw;
+    @include belota-700-25;
+}
+
+.quote {
+    @include belota-400-18;
+    margin-top: 2vw;
+    color: $white;
+}
+
+.imgSide {
+    width: 55vw;
+}
+
+.imgWrap {
+    max-width: 100%;
+    height: auto;
+}
+
+.img {
+    @include picFit;
+}
+
+.description {
+    @include belota-400-17;
+    text-align: left;
+    padding-top: 2vw;
+    color: $white;
+}

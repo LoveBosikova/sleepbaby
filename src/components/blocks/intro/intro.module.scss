@@ -22,6 +22,7 @@
     padding-bottom: 11.8vw;
     padding-left: .7%;
     width: 40%;
+    color: $white;
 }
 
 .h1Wrap {
@@ -47,5 +48,4 @@
 
 .img {
     @include picFit;
-
 }

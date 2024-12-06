@@ -3,6 +3,7 @@ import familyPic from '../../../assets/family.png'
 import H1 from '../../ui/h1/h1';
 import LinkBtn from '../../ui/linkBtn/linkBtn';
 import Title from '../../ui/title/title';
+
 import styles from './intro.module.scss';
 
 function Intro () {

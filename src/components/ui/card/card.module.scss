@@ -1,0 +1,42 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.card {
+    text-align: left;
+    color: $white;
+    background-color: $border-blue;
+    border-radius: 8px;
+    padding: 2vw 2.2vw;
+
+    & > .title {
+        @include belota-700-33;
+        padding-bottom: 1.8vw;
+        width: 90%;
+    } 
+
+    & > .text {
+        @include belota-400-18;
+        width: 90%;
+    }
+}
+
+
+.cardDark {
+    text-align: left;
+    color: $white;
+    background-color: $base-dark-blue;
+    border-radius: 8px;
+    padding: 2vw 2.2vw;
+
+
+    & > .title {
+        @include belota-700-33;
+        padding-bottom: 1.8vw;
+        width: 90%;
+    } 
+
+    & > .text {
+        @include belota-400-18;
+        width: 90%;
+    }
+}

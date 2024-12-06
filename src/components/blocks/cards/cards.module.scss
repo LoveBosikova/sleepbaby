@@ -1,0 +1,57 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.cards {
+    margin-top: -3.5vw;
+    padding-right: 5.5vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+}
+
+.container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-top: 21.5vw;
+    padding-left: 5.6vw;
+}
+
+.header {
+    @include flex-start;
+    gap: 8.3vw;
+    padding-left: 10.7vw;
+    margin-bottom: 2.7vw;
+}
+
+.titleWrap {
+    width: 37.8%;
+}
+
+.titleContainer {
+    padding-bottom: 1vw;
+}
+
+.picWrap {
+    @include flex-start;
+    padding-top: .65vw;
+}
+
+.picText {
+    @include belota-400-18;
+    padding-top: 2vw;
+    padding-left: 1.6vw;
+    width: 51%;
+    text-align: left;
+}
+
+.cardsContainer {
+    @include flex-row-space-between;
+    padding-left: 0;
+    margin-left: 0;
+    gap: 3.8%;
+}
+
+.cloudsWrap {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}

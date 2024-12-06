@@ -1,0 +1,23 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.questions {
+    color: $white;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    text-align: left;
+}
+
+.header {
+    @include flex-start;
+    gap: 3.5%;
+    padding-bottom: 1.1vw;
+}
+
+.titlePadding {
+    padding-bottom: 1vw;
+}
+
+.questionsList {
+    padding-left: 0;
+}

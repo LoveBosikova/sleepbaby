@@ -1,0 +1,33 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.questionClosed {
+    border: 1px solid $white;
+    background-color: transparent;
+    will-change: background-color;
+    border-radius: 8px;
+    margin-bottom: 5vw;
+    padding: 2vw;
+
+    & .header {
+        @include flex-row-space-between;
+        padding-bottom: 1vw;
+    }
+
+    & .questionText {
+        @include belota-700-25;
+    }
+
+    & .answer {
+        @include belota-400-18;
+    }
+
+    & .bulletWrap {
+        cursor: pointer;
+        @include flex-center-center;
+        padding: .2vw .3vw;
+        border-radius: 8px;
+        border: 1px solid $border-blue;
+        background-color: $border-blue;
+    }
+}
