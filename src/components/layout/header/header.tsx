@@ -1,4 +1,4 @@
-import logo from '../../../assets/logo.png'
+import logo from '../../../assets/logo.png';
 import LoginBtn from '../../ui/loginBtn/loginBtn';
 import RegBtn from '../../ui/regBtn/regBtn';
 

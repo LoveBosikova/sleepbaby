@@ -3,7 +3,7 @@
 
 .cards {
     margin-top: -3.5vw;
-    padding-right: 5.5vw;
+    // padding-right: 5.5vw;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr;
@@ -29,6 +29,7 @@
 
 .titleContainer {
     padding-bottom: 1vw;
+    padding-right: 5.5vw;
 }
 
 .picWrap {
@@ -49,9 +50,22 @@
     padding-left: 0;
     margin-left: 0;
     gap: 3.8%;
+    padding-right: 5.5vw;
 }
 
 .cloudsWrap {
     grid-column: 1/2;
     grid-row: 1/2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.clouds {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
 }

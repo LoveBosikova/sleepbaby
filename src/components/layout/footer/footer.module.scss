@@ -1,0 +1,68 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.footer {
+    @include flex-space-between-center;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    padding-bottom: 12.5vw;
+    text-align: left;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-image: url('../../../assets/footerClouds.png');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.logoWrap {
+    padding-top: 1.1vw;
+    margin-bottom: auto;
+    padding-left: .3vw;
+}
+
+.pictureWrap {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.copy {
+    color: $white;
+    @include belota-700-12;
+    padding-top: 1vw;
+}
+
+.socialWrap {
+    width: 23%;
+    padding-top: 2.5vw;
+    margin-bottom: auto;
+}
+
+.infoWrap {
+    width: 30%;
+    padding-top: 1.1vw;
+}
+
+.header {
+    @include shnobel-400-23;
+    color: $white;
+    padding-bottom: .8vw;
+}
+
+.textDonate {
+    @include belota-400-18;
+    color: $white;
+    padding-bottom: 2vw;
+}
+
+.buttonsWrap {
+    @include flex-space-between-center;
+    padding-bottom: 1vw;
+} 
+
+.iconsWrap {
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3%;
+}

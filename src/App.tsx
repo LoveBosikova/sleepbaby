@@ -8,6 +8,7 @@ import Author from './components/blocks/author/author';
 import Questions from './components/blocks/questions/questions';
 
 import styles from './App.module.scss';
+import Footer from './components/layout/footer/footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Author></Author>
         <Questions questionts={questions}></Questions>
       </main>
+      <Footer></Footer>
     </div>
   );
 }

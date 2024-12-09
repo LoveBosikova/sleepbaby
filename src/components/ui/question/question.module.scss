@@ -4,9 +4,54 @@
 .questionClosed {
     border: 1px solid $white;
     background-color: transparent;
-    will-change: background-color;
+    will-change: background-color, border;
     border-radius: 8px;
-    margin-bottom: 5vw;
+    margin-bottom: 2vw;
+    padding: 2vw;
+    transition: all 200ms ease-in-out;
+
+    & .header {
+        @include flex-row-space-between;
+        padding-bottom: 1vw;
+    }
+
+    & .questionText {
+        @include belota-700-25;
+    }
+
+    & .answer {
+        will-change: font-size;
+        transition: all 200ms ease-in-out;
+        transition-delay: 100ms;
+        @include belota-400-18;
+        font-size: 1px;
+        opacity: 0;
+    }
+
+    & .bulletWrap {
+        cursor: pointer;
+        @include flex-center-center;
+        padding: .2vw .3vw;
+        border-radius: 8px;
+        border: 1px solid $border-blue;
+        background-color: $border-blue;
+        transition: all 200ms ease-in-out;
+        will-change: border, background-color;
+    }
+
+    & .verticalLine {
+        transition: all 100ms ease-in-out;
+        transform: rotate(0);
+    }
+}
+
+.questionOpened {
+    border: 1px solid $border-blue;
+    background-color: $border-blue;
+    will-change: background-color, border;
+    transition: all 200ms ease-in-out;
+    border-radius: 8px;
+    margin-bottom: 2vw;
     padding: 2vw;
 
     & .header {
@@ -20,6 +65,8 @@
 
     & .answer {
         @include belota-400-18;
+        transition: all 200ms ease-in-out;
+        transition-delay: 100ms;
     }
 
     & .bulletWrap {
@@ -27,7 +74,14 @@
         @include flex-center-center;
         padding: .2vw .3vw;
         border-radius: 8px;
-        border: 1px solid $border-blue;
+        border: 1px solid $white;
         background-color: $border-blue;
+        transition: all 200ms ease-in-out;
+        will-change: border, background-color;
+    }
+
+    & .verticalLine {
+        transition: all 100ms ease-in-out;
+        transform: rotate(90deg);
     }
 }
