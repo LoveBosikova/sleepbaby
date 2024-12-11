@@ -6,7 +6,7 @@
 }
 
 .sleepsContainer {
-    padding-top: 7.3vw;
+    padding-top: 7.9vw;
     padding-left: 16.3vw;
     padding-right: 15vw;
 }
@@ -40,4 +40,111 @@
 
 .main {
     height: 45vw;
+}
+
+.formSide {
+    width: 50%;
+}
+
+.form {
+    width: 80%;
+}
+
+.calendar {
+    @include flex-space-between-center;
+    position: relative;
+    padding-top: 3.3vw;
+
+    & >li:nth-child(4) {
+        color: $white;
+        @include belota-400-17;
+    }
+}
+
+.arrowLeft,
+.arrowRight {
+    @include flex-center-center;
+    background-color: $dark-grey;
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    will-change: background-color;
+    transition: background-color 150ms ease-in-out;
+
+    &:hover {
+        background-color: $border-blue;
+    }
+}
+
+.borderCentralDate {
+    position: absolute;
+    top: 39%;
+    left: 44%;
+    height: 4vw;
+    width: 3vw;
+    border: 2px solid $border-blue;
+    border-radius: 6px;
+}
+
+.sleepTypes {
+    display: flex;
+    gap: 4.4%;
+    padding-top: 2.3vw;
+}
+
+.sleepTypeLabelActive {
+    @include flex-start;
+    width: 50%;
+    border: 1px solid $border-blue;
+    border-radius: 8px;
+    padding: 1vw;
+    background-color: $border-blue;
+}
+
+.sleepTypeLabel {
+    @include flex-start;
+    width: 50%;
+    // height: 3vw;
+    border: 1px solid $white;
+    border-radius: 8px;
+    padding: 1vw;
+}
+
+.sleepTypeInput {
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.sleepTypeNameActive {
+    @include belota-700-17;
+    color: $white;
+}
+
+.sleepTypeName {
+    @include belota-400-17;
+    color: $white;
+}
+
+.sleepTypeBulletWrapActive {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 1px solid $white;
+    margin-left: auto;
+    margin-right: 0.5vw;
+    background-color: $white;
+}
+
+.sleepTypeBulletWrap {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 1px solid $white;
+    margin-left: auto;
+    margin-right: 0.5vw;
+
+    & > img {
+        opacity: 0;
+    }
 }

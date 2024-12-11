@@ -1,0 +1,13 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.number {
+    @include belota-700-16;
+    color: $white;
+    padding-bottom: .2vw;
+}
+
+.dayOfTheWeek {
+    @include belota-300-16;
+    color: $grey;
+}
