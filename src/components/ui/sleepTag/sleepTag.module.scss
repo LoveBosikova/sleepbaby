@@ -4,25 +4,33 @@
 .tag {
     @include belota-400-12;
     width: 22%;
+    margin-bottom: 1.5vw;
+    padding: .3vw;
+    cursor: pointer;
     background-color: transparent;
     border: 1px solid $white;
     border-radius: 6px;
-    will-change: border-color, background-color, color;
     color: $white;
-    padding: .3vw;
-    margin-bottom: 1.5vw;
-    cursor: pointer;
+    text-align: center;
+    transition: all 150ms ease-in-out;
+    will-change: border-color, background-color, color;
+
+    &:hover {
+        border-color: $green;
+    }
 }
 
-.ActiveTag {
+.activeTag {
     @include belota-400-12;
     width: 22%;
-    background-color: $green;
-    border: 1px solid $green;
-    border-radius: 6px;
-    will-change: border-color, background-color, color;
-    color: $white;
     padding: .3vw;
     margin-bottom: 1.5vw;
     cursor: pointer;
+    border: 1px solid $green;
+    border-radius: 6px;
+    background-color: $green;
+    color: $white;
+    text-align: center;
+    will-change: border-color, background-color, color;
+    transition: all 100ms ease-in-out;
 }

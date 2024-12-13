@@ -8,12 +8,18 @@ interface ISleepTagProps {
 
 function SleepTag (props: ISleepTagProps) {
 
+    const {chosenTags, text, setChosenTags} = props;
+
     function handleTagClick (text: string, setChosenTags: React.Dispatch<React.SetStateAction<string[]>>) {
-        
+        if (!chosenTags.includes(props.text)) {
+            setChosenTags([...chosenTags, text])
+        } else if (chosenTags.includes(text)){
+            setChosenTags(chosenTags.filter((el)=> el !== text))
+        }
     }
 
     return (
-        <li className={styles.tag} onClick={()=> {handleTagClick(props.text, props.setChosenTags)}}>
+        <li className={chosenTags.includes(props.text) ? styles.activeTag : styles.tag} onClick={()=> {handleTagClick(text, setChosenTags)}}>
             {props.text}
         </li>
     )

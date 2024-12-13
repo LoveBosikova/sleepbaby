@@ -48,6 +48,7 @@ function Sleeps () {
     const [timeStart, setTimeStart] = useState<string>(`${dayjs().hour()}:${dayjs().minute()}`); // Во сколько начался сон 
     const [timeEnd, setTimeEnd] = useState<string>(`${dayjs().hour()}:${dayjs().minute()+1}`); // Во сколько закончился сон 
     const [chosenTags, setChosenTags] = useState<string[]>([]); // Выбранные теги для сна
+    const [comment, setComment] = useState<string>(''); // Комментарий
 
     function handleSubstractDay (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
         event.preventDefault();
@@ -188,8 +189,22 @@ function Sleeps () {
 
                             <ul className={styles.sleepTags}>
                                 {SLEEPTAGS.map((tag:string) => <SleepTag key={tag} text={tag} chosenTags={chosenTags} setChosenTags={setChosenTags}></SleepTag>)}
-
                             </ul>
+
+                            <div className={styles.comment}>
+                                <input 
+                                className={styles.commentText} 
+                                value={comment} 
+                                onChange={(e) => setComment(e.target.value)} 
+                                type='textarea' 
+                                placeholder='Оставьте комментарий...' />
+                            </div>
+
+                            <div className={styles.buttonsWrap}>
+                                <button className={styles.buttonSave}>Сохранить данные</button>
+                                <button className={styles.buttonReset}>Сбросить данные</button>
+                            </div>
+
                         </form>
                     </div>
                 </div>
