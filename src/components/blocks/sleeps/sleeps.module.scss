@@ -148,3 +148,64 @@
         opacity: 0;
     }
 }
+
+.sleepTime {
+    padding-top: 1vw;
+}
+
+.timeInput {
+    @include belota-700-16;
+    width: 64%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: $white;
+    padding-left: 1vw;
+}
+
+input[type='time']::-webkit-calendar-picker-indicator {
+    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+    cursor: pointer;
+}
+
+.timeStartWrap, 
+.timeEndWrap {
+    width: 92%;
+    border: 1px solid $white;
+    @include flex-start;
+    border-radius: 8px;
+    padding: 1vw;
+    margin-bottom: 0.7vw;
+    padding-top: 1.3vw;
+}
+
+.timeText {
+    @include belota-400-15;
+    color: $white;
+    width: 30%;
+    text-wrap: nowrap;
+    text-align: left;
+}
+
+.arrowDownWrap {
+    @include flex-center-center;
+    margin-left: auto;
+    margin-right: 0.6vw;
+    height: 1.3vw;
+    width: 1.3vw;
+    background-color: $dark-grey;
+    border-radius: 50%;
+}
+
+.sleepTags {
+    border:  1px dashed $border-blue;
+    border-radius: 8px;
+    padding: 1vw;
+    padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10%;
+    margin-top: 1.2vw;
+}

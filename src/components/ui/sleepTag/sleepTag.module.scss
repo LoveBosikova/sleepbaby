@@ -1,0 +1,28 @@
+@import '../../../sass/mixins.scss';
+@import '../../../sass/colors.scss';
+
+.tag {
+    @include belota-400-12;
+    width: 22%;
+    background-color: transparent;
+    border: 1px solid $white;
+    border-radius: 6px;
+    will-change: border-color, background-color, color;
+    color: $white;
+    padding: .3vw;
+    margin-bottom: 1.5vw;
+    cursor: pointer;
+}
+
+.ActiveTag {
+    @include belota-400-12;
+    width: 22%;
+    background-color: $green;
+    border: 1px solid $green;
+    border-radius: 6px;
+    will-change: border-color, background-color, color;
+    color: $white;
+    padding: .3vw;
+    margin-bottom: 1.5vw;
+    cursor: pointer;
+}

@@ -1,3 +1,3 @@
-const daysOfTheWeek: string[] = [ 'Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+const DAYSOFTHEWEEK: string[] = [ 'Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
 
-export default daysOfTheWeek;
+export default DAYSOFTHEWEEK;
